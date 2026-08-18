@@ -1,0 +1,77 @@
+[
+    {
+        "word": "happy",
+        "meaning": "Feeling or showing pleasure and contentment.",
+        "partOfSpeech": "Adjective",
+        "synonyms": [
+            "joyful",
+            "cheerful",
+            "pleased"
+        ],
+        "antonyms": [
+            "sad",
+            "unhappy"
+        ],
+        "example": "She was happy to receive the good news."
+    },
+    {
+        "word": "brave",
+        "meaning": "Ready to face danger or difficult situations with courage.",
+        "partOfSpeech": "Adjective",
+        "synonyms": [
+            "courageous",
+            "bold",
+            "fearless"
+        ],
+        "antonyms": [
+            "cowardly",
+            "timid"
+        ],
+        "example": "The brave student helped during the emergency."
+    },
+    {
+        "word": "beautiful",
+        "meaning": "Pleasing to the senses or mind.",
+        "partOfSpeech": "Adjective",
+        "synonyms": [
+            "attractive",
+            "lovely",
+            "pretty"
+        ],
+        "antonyms": [
+            "ugly",
+            "unattractive"
+        ],
+        "example": "The garden looked beautiful in the morning."
+    },
+    {
+        "word": "learn",
+        "meaning": "To gain knowledge or skill through study or experience.",
+        "partOfSpeech": "Verb",
+        "synonyms": [
+            "study",
+            "understand",
+            "discover"
+        ],
+        "antonyms": [
+            "forget",
+            "ignore"
+        ],
+        "example": "Students learn new concepts every day."
+    },
+    {
+        "word": "quick",
+        "meaning": "Moving or happening with great speed.",
+        "partOfSpeech": "Adjective",
+        "synonyms": [
+            "fast",
+            "rapid",
+            "swift"
+        ],
+        "antonyms": [
+            "slow",
+            "sluggish"
+        ],
+        "example": "The quick response solved the problem."
+    }
+]

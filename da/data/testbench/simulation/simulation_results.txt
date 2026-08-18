@@ -1,0 +1,66 @@
+========================================
+             DICTIONARY APP
+========================================
+
+STEP 1:
+Load Dictionary Data
+
+Words Loaded:
+5
+
+----------------------------------------
+
+STEP 2:
+User Input
+
+Word:
+happy
+
+----------------------------------------
+
+STEP 3:
+Search Result
+
+Word:
+happy
+
+Meaning:
+Feeling or showing pleasure and contentment.
+
+Part of Speech:
+Adjective
+
+Synonyms:
+joyful, cheerful, pleased
+
+Antonyms:
+sad, unhappy
+
+Example:
+She was happy to receive the good news.
+
+----------------------------------------
+
+STEP 4:
+Search Another Word
+
+Word:
+brave
+
+Result:
+Word information displayed successfully.
+
+----------------------------------------
+
+STEP 5:
+Invalid Search
+
+Word:
+xyz
+
+Result:
+Word not found in the dictionary.
+
+========================================
+       SIMULATION COMPLETED
+========================================

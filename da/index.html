@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dictionary App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>📖 Dictionary App</h1>
+    <p>Search words and explore their meanings</p>
+</header>
+
+<main>
+
+    <section class="search-box">
+
+        <input
+            type="text"
+            id="wordInput"
+            placeholder="Enter a word"
+        >
+
+        <button onclick="searchWord()">
+            Search
+        </button>
+
+    </section>
+
+    <section id="result">
+
+        <h2 id="word">Search for a word</h2>
+
+        <div class="dictionary-card">
+
+            <div class="item">
+                <h3>Meaning</h3>
+                <p id="meaning">--</p>
+            </div>
+
+            <div class="item">
+                <h3>Part of Speech</h3>
+                <p id="partOfSpeech">--</p>
+            </div>
+
+            <div class="item">
+                <h3>Synonyms</h3>
+                <p id="synonyms">--</p>
+            </div>
+
+            <div class="item">
+                <h3>Antonyms</h3>
+                <p id="antonyms">--</p>
+            </div>
+
+            <div class="item">
+                <h3>Example</h3>
+                <p id="example">--</p>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>Dictionary App | Academic GitHub Project</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

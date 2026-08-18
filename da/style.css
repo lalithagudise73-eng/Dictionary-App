@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f3ff;
+    color: #222;
+}
+
+header {
+    background: #4c1d95;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 35px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 35px 20px;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#wordInput {
+    width: 70%;
+    padding: 14px;
+
+    border: 1px solid #aaa;
+    border-radius: 6px;
+
+    font-size: 16px;
+}
+
+button {
+    padding: 14px 22px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #7c3aed;
+    color: white;
+
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+#result {
+    text-align: center;
+}
+
+.dictionary-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+
+    box-shadow:
+        0 3px 10px rgba(0, 0, 0, 0.1);
+
+    text-align: left;
+}
+
+.item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.item h3 {
+    color: #4c1d95;
+    margin-bottom: 5px;
+}
+
+.item p {
+    line-height: 1.6;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 20px;
+
+    text-align: center;
+
+    background: #4c1d95;
+    color: white;
+}
+
+@media (max-width: 600px) {
+
+    .search-box {
+        flex-direction: column;
+    }
+
+    #wordInput {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
